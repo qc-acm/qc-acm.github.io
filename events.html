@@ -66,6 +66,9 @@
           <li>
             <a href="./contactus.html">Contact Us</a>
           </li>
+          <li>
+            <a href="./references.html">References</a>
+          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -87,6 +90,68 @@
       </ol>
     </div>
   </section>
+
+  <div class="container">
+
+	<div class="row">
+     <br><br>
+     <div class="row text-center">
+       <strong><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Current Date</strong>: <p id="date"></p>
+     </div>
+     <script>
+     n =  new Date();
+     y = n.getFullYear();
+     m = n.getMonth() + 1;
+     d = n.getDate();
+     document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+     </script>
+
+     <br><br>
+
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-12 text-center">
+         <h2 class="section-heading">Upcoming Events</h2>
+         <hr class="primary">
+       </div>
+     </div>
+
+		<div class="error-notice">
+      <div class="oaerror info">
+        <strong>09/13/17</strong> - <b>QC Computer Science-ACM Club Meeting</b>
+        <br><br>
+        <p><b>Time</b>: To be announced</p>
+        <p><b>Location</b>: To be announced</p>
+      </div>
+
+      <div class="oaerror danger">
+        <strong>09/27/17</strong> - <b>Oscar Winning Computer Graphics and Business & Technology Career Fair</b>
+        <br><br>
+        <strong>Event 1</strong>
+        <p><b>Title</b>: Oscar Winning Computer Graphics!</p>
+        <p><b>Speaker</b>: Maurice van Swaaij, Manager Research & Development, BlueSky Studios</p>
+        <p><b>Time</b>: 1:00PM - 1:30PM</p>
+        <p><b>Location</b>: To be announced</p>
+        <p><b>About the Speaker</b>: Maurice van Swaaij is manager of the R&D department at BlueSky Studios. After starting his career in CG at TDI in Paris, he joined Blue Sky in 1994 where he developed a voxel based ray-tracing technology for rendering hair for the first Ice Age movie. Subsequently the technology has been used to render fur, feathers, foliage, flowers, grass, saw dust, snow and crowds of characters among other things. He received his Software Engineering degree in the Netherlands and a Masters in Scientific Computing from Courant Institute in New York. He lives with his wife and adopted dog in Fort Greene, Brooklyn.</p>
+        <p><b>Description</b>: Imagine your computer is suddenly 500 times slower and has 8000 times less memory, what do you think you could do with that?
+BlueSky Studios started 30 years ago with 4 SUN 3/50 machines (15.7Mhz, 4Mb) and the dream of ray-tracing movies with them.
+Only the most optimized code would be able to do the job, especially memory use had to be as little as possible.
+Given this scenario, Carl Ludwig, founder and CTO, was often heard saying that they were writing the renderer of the future, for when computers would catch up.
+How right he was! </p>
+        <br><br>
+        <strong>Event 2</strong>
+        <p><b>Time</b>: 12:00PM - 1:00PM</p>
+        <p><b>Location</b>: To be announced</p>
+      </div>
+
+      <!-- USE THIS SECTION TO ARCHIVE OLDER EVENTS
+      <div class="oaerror success">
+        <strong>Yeppi</strong> - You are successfully registered. Please login.
+      </div>
+      -->
+    </div>
+	</div>
+</div>
 
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.min.js"></script>

@@ -4,6 +4,59 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ .error-notice {
+   margin: 5px 5px; /* Making sure to keep some distance from all side */
+ }
+
+ .oaerror {
+   width: 90%; /* Configure it fit in your design  */
+   margin: 0 auto; /* Centering Stuff */
+   background-color: #FFFFFF; /* Default background */
+   padding: 20px;
+   border: 1px solid #eee;
+   border-left-width: 5px;
+   border-radius: 3px;
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+ }
+
+ .danger {
+   border-left-color: #d9534f; /* Left side border color */
+   background-color: rgba(217, 83, 79, 0.1); /* Same color as the left border with reduced alpha to 0.1 */
+ }
+
+ .danger strong {
+   color:  #d9534f;
+ }
+
+ .warning {
+   border-left-color: #f0ad4e;
+   background-color: rgba(240, 173, 78, 0.1);
+ }
+
+ .warning strong {
+   color: #f0ad4e;
+ }
+
+ .info {
+   border-left-color: #5bc0de;
+   background-color: rgba(91, 192, 222, 0.1);
+ }
+
+ .info strong {
+   color: #5bc0de;
+ }
+
+ .success {
+   border-left-color: #2b542c;
+   background-color: rgba(43, 84, 44, 0.1);
+ }
+
+ .success strong {
+   color: #2b542c;
+ }
+
 .navbar-default,
 a {
     -webkit-transition: all .35s;
@@ -165,7 +218,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../img/header2.png);
+    background-image: url(http://www.acm.org/binaries/content/gallery/acm/banners/2_generic_acm_banner.jpg/2_generic_acm_banner.jpg);
     color: #fff;
 }
 
@@ -187,11 +240,11 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    font-weight: 600;
+    font-weight: 300;
     color: rgba(255, 255, 255, .9);
     font-size: 16px;
     margin-bottom: 50px;
-    -webkit-text-stroke: 0.7px black;
+    -webkit-text-stroke: 0px black;
 }
 
 @media (min-width:768px) {
