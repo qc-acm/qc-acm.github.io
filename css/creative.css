@@ -177,7 +177,6 @@ aside {
 }
 
 
-
 .side-header {
   padding: 75px 0 25px 0;
   background: #DC4C46;
@@ -211,6 +210,14 @@ aside {
   text-align: center;
 }
 
+.img-container { 
+    background-color: #000000;
+}
+
+.img-container img {
+    opacity: 0.5;
+}
+
 header {
     min-height: auto;
     -webkit-background-size: cover;
@@ -218,7 +225,10 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(http://www.acm.org/binaries/content/gallery/acm/banners/2_generic_acm_banner.jpg/2_generic_acm_banner.jpg);
+    background-image:
+        linear-gradient(rgba(20, 20, 20, .3),
+    rgba(20, 20, 20, .3)),  
+        url(../img/qc_lib.jpg);
     color: #fff;
 }
 
